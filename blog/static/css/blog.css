@@ -5,10 +5,11 @@ h1 a {
 
 body {
     padding-left: 15px;
+	background-color: lightblue;
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: red;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }

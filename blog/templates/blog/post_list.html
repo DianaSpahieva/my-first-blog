@@ -10,4 +10,10 @@
             <p>{{ post.text|linebreaksbr }}</p>
         </div>
     {% endfor %}
+          {% block total %}
+          <p>Total sum:</p>
+            <div class="post">
+            {{total}}
+            </div>
+        {% endblock %}
 {% endblock %}
